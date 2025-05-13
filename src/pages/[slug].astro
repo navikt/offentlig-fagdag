@@ -8,9 +8,11 @@ const { data, body } = talk;
 
 export const getStaticPaths = async () => {
   const talks = await getCollection("talks");
-  return talks.map((talk) => ({
-    params: { slug: talk.slug },
-  }));
+  return talks
+    .filter((talk) => talk.body)
+    .map((talk) => ({
+      params: { slug: talk.slug },
+    }));
 };
 
 const { Content } = await render(talk);
