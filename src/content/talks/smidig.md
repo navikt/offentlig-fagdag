@@ -6,7 +6,7 @@ duration: 25
 speakers:
   - name: "Alexander Holand Salgado"
     image: "alex.jpg"
-    employer: "Skatteetaten"
+    employer: "Skatt"
     bio: "Engasjert utvikler med mange meninger. Har frem til det siste snaue året jobbet i det private, men er nå del av offentlig sektor. Drømmejobben er et sted hvor jeg selv er det største hinderet til produktivitet - har ikke funnet drømmejobben min ennå. Er derfor opptatt av hvordan vi kan bli mer produktive og drive mer kostnadseffektivt."
 ---
 

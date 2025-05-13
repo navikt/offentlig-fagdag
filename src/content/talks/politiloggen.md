@@ -6,11 +6,11 @@ duration: 25
 speakers:
   - name: "Michal Panasewicz"
     image: "michal.jpg"
-    employer: "Politiets IT-enhet"
+    employer: "PIT"
     bio: "Michal er utvikler i politiet og tech lead for Politiloggen. Han har en bachelor i dataingeniør fra NTNU i Trondheim, og kom rett fra skolebenken da han begynte i politiet i 2022."
   - name: "Maria Stolinski"
     image: "maria.jpg"
-    employer: "Politiets IT-enhet"
+    employer: "PIT"
     bio: "Maria er produktdesigner i politiet. Hun har en master i interaksjonsdesign fra Universitetet i Oslo og erfaring fra produktutvikling i både privat og offentlig sektor. Hun er design lead og var fungerende produktleder i arbeidet med Politiloggen."
 ---
 

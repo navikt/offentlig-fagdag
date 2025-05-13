@@ -6,7 +6,7 @@ duration: 25
 speakers:
   - name: "Roger Karlsson"
     image: "roger.jpg"
-    employer: "Politiets IT-enhet"
+    employer: "PIT"
     bio: ""
 ---
 

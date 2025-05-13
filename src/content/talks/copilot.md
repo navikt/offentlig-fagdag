@@ -6,7 +6,7 @@ duration: 10
 speakers:
   - name: "Fredrik Dokka Nordstad"
     image: "fredrik.jpg"
-    employer: "Skatteetaten"
+    employer: "Skatt"
     bio: "Utvikler - Team Min Skatt"
 ---
 

@@ -6,7 +6,7 @@ duration: 25
 speakers:
   - name: "Silje Bjølseth"
     image: "silje.jpg"
-    employer: "Meteorologisk institutt"
+    employer: "MET"
     bio: "Silje har over 15 års fartstid som sysadmin, de siste fire årene hos Meteorologisk institutt. Med en mastergrad i astrofysikk i bunnen har hun en forkjærlighet for akademia og trives godt med å jobbe i kunnskapsbedrifter hvor åpenhet er en del av ryggraden. Etter å ha blitt introdusert for Linux i studietiden har åpen kildekode stått sentralt i arbeidshverdagen. På Meteorologisk institutt er hun ansatt i avdeling for IT-infrastruktur og er hovedansvarlig for instituttets Keycloak-løsning. Hun er også involvert i Kubernetes-plattformteamet."
 ---
 

@@ -6,7 +6,7 @@ duration: 25
 speakers:
   - name: "Åse Lundegaard Mattson"
     image: "ase.jpg"
-    employer: "Skatteetaten"
+    employer: "Skatt"
     bio: "Utdanna psykolog, som har jobba i 5 år med kompetanseheving i helse- og omsorgssektoren. Omskolerte meg til utviklar for 3 år sidan."
 ---
 

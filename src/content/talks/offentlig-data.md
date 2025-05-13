@@ -6,7 +6,7 @@ duration: 25
 speakers:
   - name: "Teresa Hang Nguyen"
     image: "teresa.jpg"
-    employer: "Politiets IT-enhet"
+    employer: "PIT"
     bio: "Vedlikeholde en felles komponent for flere systemer i politiet"
 ---
 

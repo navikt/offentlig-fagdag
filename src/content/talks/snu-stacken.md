@@ -6,7 +6,7 @@ duration: 45
 speakers:
   - name: "Håvard Elnan"
     image: "havard.jpg"
-    employer: "Norsk helsenett SF"
+    employer: "NHN"
     bio: "Håvard Elnan bygger plattform i Norsk helsenett samtidig som han gjeter 250+ kubernetescluster onprem."
 ---
 

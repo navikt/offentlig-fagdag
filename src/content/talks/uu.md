@@ -6,7 +6,7 @@ duration: 25
 speakers:
   - name: "Lotte Johansen"
     image: "lotte.png"
-    employer: "Politiets IT-enhet"
+    employer: "PIT"
     bio: ""
 ---
 
