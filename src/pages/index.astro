@@ -73,7 +73,7 @@ const roomOrder = ["Rom 1", "Rom 2", "Fellesarealet"];
                       ].join(" ")}
                     >
                       <h3>{location}</h3>
-                      <div class="list">
+                      <div class="talks">
                         {talks
                           ?.sort(
                             (a, b) =>
@@ -81,7 +81,7 @@ const roomOrder = ["Rom 1", "Rom 2", "Fellesarealet"];
                               new Date(`2025-05-22T${b.data.time}`).getTime()
                           )
                           .map(({ data, slug, body }) => (
-                            <div class="talk">
+                            <div>
                               <div>
                                 {`${data.time}-${addMinutes(
                                   new Date(`2025-05-22T${data.time}`),
@@ -139,6 +139,11 @@ const roomOrder = ["Rom 1", "Rom 2", "Fellesarealet"];
     display: grid;
     gap: 0.75rem;
   }
+  @media (min-width: 1024px) {
+    .list {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
   .room {
     border-radius: 0.5rem;
     padding: 1rem;
@@ -151,5 +156,9 @@ const roomOrder = ["Rom 1", "Rom 2", "Fellesarealet"];
   }
   .room.fellesarealet {
     background-color: #ccf1d6;
+  }
+  .talks {
+    display: grid;
+    gap: 1rem;
   }
 </style>
