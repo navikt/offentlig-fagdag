@@ -1,5 +1,5 @@
 ---
-title: "Hvordan i alle dager forstå hva programmet din egentlig gjør?"
+title: "Hvordan i alle dager forstå hva programmet ditt egentlig gjør?"
 time: "14:45"
 location: "Rom 1"
 duration: 25
@@ -11,7 +11,7 @@ speakers:
 ---
 
 Selvforklarende kode, det er deilig å høre! «Ja takk, gjerne» sier jeg!
-Hvordan blir dette når koden vokser, kompleksiteten øker, og mengden kode du må lese over er for mye til at du klarer å få oversikt over hva programmet din egentlig gjør?
+Hvordan blir dette når koden vokser, kompleksiteten øker, og mengden kode du må lese over er for mye til at du klarer å få oversikt over hva programmet ditt egentlig gjør?
 
 Dokumentasjon kan jo hjelpe, men det er kun så lenge den henger godt sammen med koden. Der dokumentasjonen oppdateres i lik takt som endring i koden. Dette er jo ikke alltid tilfelle. Så hvordan skal man få en oversikt over hva en større kodebit egentlig gjør?
 
