@@ -1,11 +1,135 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import { getCollection } from "astro:content";
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+const talks = await getCollection("talks");
+
+const sessionStartTimes = [
+  "09:00",
+  "09:20",
+  "10:15",
+  "11:10",
+  "12:45",
+  "13:45",
+  "14:45",
+  "16:00",
+].map((time) => {
+  return new Date(`2025-05-22T${time}`);
+});
+
+const groups = Object.groupBy(talks, (talk) => {
+  const time = new Date(`2025-05-22T${talk.data.time}`);
+  return sessionStartTimes
+    .find((startTime, i, a) => {
+      return time >= startTime && time < a[i + 1];
+    })
+    ?.toLocaleTimeString([], {
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: false,
+    });
+});
+
+function addMinutes(date, minutes) {
+  return new Date(date.getTime() + minutes * 60 * 1000);
+}
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fagdag for offentlig sektor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <style>
+      .location {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .location::before {
+        content: "";
+        width: 1rem;
+        height: 1rem;
+        border-radius: 10px;
+      }
+
+      .location.fellesarealet::before {
+        background: red;
+      }
+      .location.rom_1::before {
+        background: blue;
+      }
+      .location.rom_2::before {
+        background: green;
+      }
+      .talk {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-bottom: 1.25rem;
+      }
+      .talk-title {
+        font-size: 1.25rem;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Velkommen til fagdag for offentlig sektor!</h1>
+      {
+        Object.entries(groups)
+          .sort(
+            ([a], [b]) =>
+              new Date(`2025-05-22T${a}`) - new Date(`2025-05-22T${b}`)
+          )
+          .map(([time, talks]) => (
+            <section>
+              <h2>{time}</h2>
+              {talks
+                ?.sort(
+                  (a, b) =>
+                    new Date(`2025-05-22T${b.data.time}`) -
+                    new Date(`2025-05-22T${a.data.time}`)
+                )
+                ?.sort((a, b) => (a.data.location > b.data.location ? 1 : -1))
+                .map(({ data, slug, body }) => (
+                  <div class="talk">
+                    <div
+                      class={[
+                        "location",
+                        data.location.toLowerCase().replaceAll(" ", "_"),
+                      ].join(" ")}
+                    >
+                      {data.location},{" "}
+                      {`${data.time}-${addMinutes(
+                        new Date(`2025-05-22T${data.time}`),
+                        data.duration
+                      ).toLocaleTimeString([], {
+                        hour: "2-digit",
+                        minute: "2-digit",
+                        hour12: false,
+                      })}`}
+                    </div>
+                    <h3 class="talk-title">
+                      {body ? (
+                        <a href={`/${slug}`}>{data.title}</a>
+                      ) : (
+                        data.title
+                      )}
+                    </h3>
+                    {data.speakers && (
+                      <div>
+                        {data.speakers
+                          .map((s) => `${s.name} (${s.employer})`)
+                          .join(", ")}
+                      </div>
+                    )}
+                  </div>
+                ))}
+            </section>
+          ))
+      }
+    </main>
+  </body>
+</html>
