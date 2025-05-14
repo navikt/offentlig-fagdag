@@ -1,6 +1,6 @@
 ---
 title: "Microdata.no – Fremtidens datadeling, tilgjengelig i dag"
-time: "12:45"
+time: "15:10"
 location: "Rom 2"
 duration: 25
 speakers:
