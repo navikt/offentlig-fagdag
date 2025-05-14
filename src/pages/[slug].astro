@@ -49,7 +49,12 @@ function addMinutes(date, minutes) {
     {
       data.speakers.map((s) => (
         <div key={s.name}>
-          <img src={s.image} alt={s.name} width={100} height={100} />
+          <img
+            src={`/offentlig-fagdag/${s.image}`}
+            alt={s.name}
+            width={100}
+            height={100}
+          />
           <h2>
             {s.name} ({s.employer})
           </h2>
