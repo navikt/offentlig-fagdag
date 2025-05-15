@@ -7,11 +7,11 @@ speakers:
   - name: "Ximena A. Støen"
     image: "ximena.jpg"
     employer: "Oslo kommune"
-    bio: "Ximena A. Støen er leder for Utviklingsopplevelser, Origos selvbetjente utviklingsplattform. "
-  - name: "Mira Sjølie"
-    image: "mira.jpg"
+    bio: "Ximena A. Støen er leder for Utviklingsopplevelser, Origos selvbetjente utviklingsplattform."
+  - name: "Catalina Pelaez"
+    image: "catalina.jpg"
     employer: "Oslo kommune"
-    bio: "Mira Sjølie er designer i plattformteamet Kjøremiljø, hvor hun gjør det enklere og mer brukervennlig å jobbe med skybasert infrastruktur. "
+    bio: "Catalina Pelaez Produktleder for designsystemet Punkt i Oslo kommune."
 ---
 
 Vi har hørt det før: "developers are people too". Men hva betyr det egentlig når vi utvikler plattformløsninger? Hva innebærer det å ha brukerfokus når brukerne er utviklere selv?
