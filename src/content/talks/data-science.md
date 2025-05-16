@@ -7,7 +7,11 @@ speakers:
   - name: "John Kasper Svergja"
     image: "john.jpg"
     employer: "SSB"
-    bio: "Utvikler og tech lead for team Skyinfrastruktur, som er et av tre team som bygger den nye dataplattformen (DAPLA) hos Statistisk Sentralbyrå."
+    bio: "Utvikler og tech lead for team Skyinfrastruktur, som er et av tre team som bygger den nye dataplattformen (Dapla) hos Statistisk Sentralbyrå."
+  - name: "Jonathan Husø"
+    image: "jonathan.jpg"
+    employer: "SSB"
+    bio: "Statistikkutvikler og del av støtteteamet for økonomisk statistikk, som skal bistå i å flytte deres statistikkproduksjonsløp til Dapla."
 ---
 
 Hvordan kan platformteamet tilby moderne datatjenester til statistikere internt hos SSB ? Som organisasjon ønsker vi å benytte oss av nye open source verktøy og tjenester, men det kan ofte være utfordrende å bygge en moderne dataplattform som lar IT-utviklere tilby dette på en enhetlig og sikker måte, mens det for brukerne oppleves sømløst og enkelt i bruk.
