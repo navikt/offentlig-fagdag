@@ -1,6 +1,6 @@
 ---
 title: "Universell utforming for alle!"
-time: "11:10"
+time: "09:20"
 location: "Fellesarealet"
 duration: 25
 speakers:
