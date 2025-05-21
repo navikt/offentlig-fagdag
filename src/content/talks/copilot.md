@@ -1,6 +1,6 @@
 ---
 title: "I førersetet med Github Copilot"
-time: "11:35"
+time: "11:30"
 location: "Rom 1"
 duration: 10
 speakers:

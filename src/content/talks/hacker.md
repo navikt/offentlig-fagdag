@@ -1,6 +1,6 @@
 ---
 title: "Jeg hørte du vil bli en hacker?"
-time: "11:10"
+time: "11:05"
 duration: 25
 location: "Fellesarealet"
 speakers:

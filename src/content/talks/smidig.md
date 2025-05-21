@@ -1,6 +1,6 @@
 ---
 title: "Agile (smidig) - død eller levende?"
-time: "13:45"
+time: "14:00"
 location: "Rom 1"
 duration: 25
 speakers:

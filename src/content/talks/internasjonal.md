@@ -1,6 +1,6 @@
 ---
 title: "Internasjonal deling av åpne data"
-time: "13:45"
+time: "14:00"
 location: "Rom 2"
 duration: 25
 speakers:

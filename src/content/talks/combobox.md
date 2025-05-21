@@ -1,6 +1,6 @@
 ---
 title: "Hva ER egentlig en combobox?"
-time: "15:10"
+time: "15:25"
 location: "Rom 1"
 duration: 25
 speakers:

@@ -1,6 +1,6 @@
 ---
 title: "OpenAPI: Rosetta Stone of the internet"
-time: "13:10"
+time: "13:25"
 location: "Rom 2"
 duration: 25
 speakers:

@@ -1,6 +1,6 @@
 ---
 title: "Hvordan i alle dager forstå hva programmet ditt egentlig gjør?"
-time: "14:45"
+time: "15:00"
 location: "Rom 1"
 duration: 25
 speakers:

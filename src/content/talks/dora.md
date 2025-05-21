@@ -1,7 +1,7 @@
 ---
 title: "Booster shot to dev efficiency-DORA metrics"
-time: "11:35"
-location: "Fellesarealet"
+time: "11:40"
+location: "Rom 1"
 duration: 10
 speakers:
   - name: "Rupinder Kaur"

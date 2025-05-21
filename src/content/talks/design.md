@@ -1,6 +1,6 @@
 ---
 title: "Design som superkraft: hvordan kan vi skape plattformprodukter folk elsker å bruke"
-time: "13:10"
+time: "13:25"
 location: "Rom 1"
 duration: 25
 speakers:

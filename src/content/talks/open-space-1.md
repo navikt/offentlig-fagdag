@@ -1,6 +1,6 @@
 ---
 title: "Rydde etter lunsj"
-time: "12:45"
+time: "13:00"
 location: "Fellesarealet"
 duration: 50
 ---

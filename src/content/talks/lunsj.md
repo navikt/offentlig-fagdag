@@ -1,5 +1,5 @@
 ---
 title: "Lunsj"
-time: "11:45"
+time: "12:00"
 duration: 60
 ---

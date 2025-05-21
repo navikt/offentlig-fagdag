@@ -1,6 +1,6 @@
 ---
 title: "Fra Twitter til glitter: historien om Politiloggen"
-time: "11:10"
+time: "11:05"
 location: "Rom 1"
 duration: 25
 speakers:

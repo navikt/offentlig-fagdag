@@ -1,6 +1,6 @@
 ---
 title: "Open Space"
-time: "13:45"
+time: "14:00"
 location: "Fellesarealet"
 duration: 50
 ---

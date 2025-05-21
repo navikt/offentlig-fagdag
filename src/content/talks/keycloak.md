@@ -1,6 +1,6 @@
 ---
 title: "Keycloak ved MET"
-time: "12:45"
+time: "13:00"
 location: "Rom 1"
 duration: 25
 speakers:

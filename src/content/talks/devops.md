@@ -1,6 +1,6 @@
 ---
 title: "Kontinuerlige leveranser og velvære med DevOps-capabilities"
-time: "14:10"
+time: "14:25"
 location: "Rom 1"
 duration: 25
 speakers:

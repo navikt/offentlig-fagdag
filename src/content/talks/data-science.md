@@ -1,6 +1,6 @@
 ---
 title: "Plattform for data science i offentlig sektor"
-time: "14:45"
+time: "15:00"
 location: "Rom 2"
 duration: 25
 speakers:

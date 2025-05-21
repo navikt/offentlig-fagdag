@@ -1,6 +1,6 @@
 ---
 title: "IT-beredskap - Major Disaster Recovery"
-time: "11:10"
+time: "11:05"
 location: "Rom 2"
 duration: 25
 speakers:

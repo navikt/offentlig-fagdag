@@ -1,6 +1,6 @@
 ---
 title: "Dummydataene som ikke var så dumme: om testdata i Skatteetaten"
-time: "12:45"
+time: "13:00"
 location: "Rom 2"
 duration: 25
 speakers:

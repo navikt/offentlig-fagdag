@@ -1,6 +1,6 @@
 ---
 title: "Offentlig Data"
-time: "14:10"
+time: "14:25"
 location: "Rom 2"
 duration: 25
 speakers:

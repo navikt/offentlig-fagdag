@@ -1,6 +1,6 @@
 ---
 title: "Supply-chain attacks på Github - hvordan og hvorfor beskytte seg?"
-time: "11:35"
+time: "11:30"
 location: "Rom 2"
 duration: 10
 speakers:
